@@ -1,0 +1,170 @@
+.create_post {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.create_post_box {
+    max-width: 440px;
+    background-color: #242526;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.inpt {
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.inpt input {
+    width: 88%;
+    border-radius: 50px;
+    border: none;
+    padding-left: 14px;
+    background-color: #3a3b3c;
+    font-size: 18px;
+    color: #fff;
+}
+
+.inpt input:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 33%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: #9e9e9e;
+    transition: ease-in-out 0.3s;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    background-color: #3a3b3c ;
+}
+.buttons button i {
+    font-size: 22px;
+}
+
+.createstr-bt {
+    background-color: transparent;
+}
+.post_box{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.post{
+    max-width: 440px;
+    background-color: #242526;
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.post_head{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postCreator p{
+    padding-top: 4px ;
+    font-size: 10px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.post_head_left, .post_head_right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.post_head_right{
+    padding-right: 10px ;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.post_discription{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:  #9e9e9e;
+    padding-bottom: 10px;
+}
+
+.post_footer{
+    padding: 0 10px;
+}
+
+.pf1{
+    display: flex;
+    justify-content: space-between;
+    color:  #9e9e9e;
+    font-size: 12px;
+    padding: 6px 4px;
+}
+
+.pf2{
+    padding: 6px 0;
+}
+
+.pf2 button,.pf2 button i{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 360px) {
+    .inpt input{
+        font-size:14px ;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    .createstr-bt button {
+        width: 48%;
+    }
+    .createstr-bt .hide-bt445{
+        display: none;
+    }
+
+    .main{
+        padding: 0 10px;
+    }
+
+}
